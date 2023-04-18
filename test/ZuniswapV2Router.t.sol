@@ -2,9 +2,9 @@
 pragma solidity ^0.8.10;
 
 import "forge-std/Test.sol";
-import "../src/ZuniswapV2Factory.sol";
-import "../src/ZuniswapV2Pair.sol";
-import "../src/ZuniswapV2Router.sol";
+import "../src/UniswapV2Factory.sol";
+import "../src/UniswapV2Pair.sol";
+import "../src/UniswapV2Router.sol";
 import "./mocks/ERC20Mintable.sol";
 
 contract ZuniswapV2RouterTest is Test {
